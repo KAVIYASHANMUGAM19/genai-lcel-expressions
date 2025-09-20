@@ -22,7 +22,7 @@ Use LangChain's language model to process the prompt and generate a response
 Implement an output parser to extract structured results from the model's response.
 
 ### PROGRAM:
-``
+```
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
@@ -69,7 +69,7 @@ parsed_result = output_parser.parse(result)
 
 # Display the result
 print("Recommendation:", parsed_result)
-``
+```
 
 ### OUTPUT:
 
